@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+body{
+    height: 200%;
+}
+
+content {
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    background: lightgreen;
+    display: block;
+}
+
+aside {
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+
+main {
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding: 5px;
+}
+
+article {
+    margin-bottom: 10px;
+}
+
+.textbox{
+    position: fixed;
+    min-width: 200px;
+    min-height: 200px;
+    background-color: yellow;
+    box-shadow: 0 8px 6px -6px black;
+}
+
